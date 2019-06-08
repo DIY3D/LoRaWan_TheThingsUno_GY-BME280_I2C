@@ -23,4 +23,4 @@ GY-BME280_I2C			The ThingsUno
 	Vcc					3.3V
 	Gnd					Gnd 
 	SCL					SCL
-	SDA 				SDA
+	SDA 					SDA
