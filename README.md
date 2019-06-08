@@ -18,7 +18,7 @@ https://github.com/adafruit/Adafruit_BME280_Library
 
 The GY-BME280 is in I2C mode and has the following PinSetting:
 
-GY-BME280_I2C			The ThingsUno
+GY-BME280_I2C					The ThingsUno
   
 	Vcc					3.3V
 	Gnd					Gnd 
