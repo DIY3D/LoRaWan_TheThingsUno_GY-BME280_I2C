@@ -1,0 +1,16 @@
+function Decoder (bytes) {
+  
+var temperature = (bytes[0] << 8) | bytes [1];
+var pressure    = (bytes[2] << 8) | bytes [3];
+var humidity    = (bytes[4] << 8) | bytes [5];
+var altitude    = (bytes[6] << 8) | bytes [7];
+
+
+return {
+
+celcius:  temperature / 100.0,
+pressure: pressure,
+humidity: humidity / 100.0
+altitude: altitude / 1000
+ }
+}
