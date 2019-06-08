@@ -1,6 +1,6 @@
 # LoRaWan_TTNUno_GY-BME280_I2C
 
-This is a basic Arduinocode for the BMPE280(temperature/humidity/pressure and altitude sensor) with The Things Uno.
+This is a basic Arduinocode for the BMPE280 (temperature/humidity/pressure and altitude sensor) with The Things Uno.
 There is also a Payload converter you can copy to:
 
 Your TTN Console --> Applications --> YourApplication --> Devices --> Payload Formats. 
