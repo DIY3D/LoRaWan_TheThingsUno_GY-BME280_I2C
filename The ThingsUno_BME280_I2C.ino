@@ -47,13 +47,15 @@ void loop() {
     uint32_t pressure = bme.readPressure()  / 100;
     uint32_t altitude = (bme.readAltitude(SEALEVELPRESSURE_HPA));
 
-    byte payload[6];
+    byte payload[8];
     payload[0] = (temperature >> 8) & 0xFF;
     payload[1] = temperature & 0xFF;
     payload[2] = (pressure >>8) & 0xFF;
     payload[3] = pressure & 0xFF;
     payload[4] = (humidity >> 8) & 0xFF;
     payload[5] = humidity & 0xFF;
+    payload[7] = (altitude >> 8) & 0xFF;
+    payload[8] = altitude & 0xFF;
 
     
   ttn.sendBytes(payload, sizeof(payload)); 
