@@ -13,7 +13,7 @@ Wait for download to finish
 Click on "Arduino AVR Boards"
 If you see an "Update" button appear then you don't have the latest version installed. If you don't see an "Update" button then you already have the latest version installed.
 
-There are several BME280 library's avialable. Here we use 2 Adafruit  library's. You can find them:
+There are several BME280 library's available. Here we use 2 Adafruit  library's. You can find them:
 
 Adafruit_Sensor.h:
 https://github.com/adafruit/Adafruit_Sensor
